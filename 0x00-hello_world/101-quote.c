@@ -1,11 +1,12 @@
 #include <stdio.h> 
 /**
  * main - entry point
- * fwrite - print function
+ * write - print function
  * Return: return 1
- */  
+ */
+int write(int filedes, const char *buf, unsigned int nbyte);
 int main() 
 { 
-  fwrite(1, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", 13); 
+  write(1, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", 13); 
   return (1); 
 }
