@@ -1,19 +1,20 @@
-#include<stdio.h>
+#include <stdio.h>
 /**
- * main - a function to show data type sizes
- * Return: stops the program
+ *main - Entry point
+ *
+ *Return: Always 0 (Success) indicates program stop
  */
 int main(void)
 {
-  int int_type;
-  char C;
-  float float_type;
-  long long_type;
-  double d;
-  sizeof(int_type);
-  sizeof(C);
-  sizeof(long_type);
-  sizeof(float_type);
-  sizeof(d); 
-  return (0);
+char c;
+int int_type;
+long long_type;
+long long longer_type;
+float f;
+printf("Size of a char: %ld byte(s)\n", sizeof(c));
+printf("Size of an int: %ld bytes(s)\n", sizeof(int_type));
+printf("Size of a long int: %ld byte(s)\n", sizeof(long_type));
+printf("Size of a long long int %ld byte(s)\n", sizeof(longer_type));
+printf("Size of a float: %ld byte(s)\n", sizeof(f));
+return (0);
 }
