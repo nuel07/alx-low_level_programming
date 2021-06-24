@@ -1,0 +1,1 @@
+A directory with projects to emphasize my understanding of functions and nested loops.
