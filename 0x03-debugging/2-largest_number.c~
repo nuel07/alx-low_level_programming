@@ -1,0 +1,27 @@
+#include "holberton.h"
+
+/**
+ * largest_number - returns the largest of 3 numbers
+ * @a: first integer
+ * @b: second integer
+ * @c: third integer
+ * Return: largest number
+ */
+
+int largest_number(int x, int y, int z)
+{
+int largest;
+if (x >= y && y >= z)
+{
+largest = x;
+}
+else if (y >= x && x >= z)
+{
+largest = y;
+}
+else
+{
+largest = z;
+}
+return (largest);
+}
