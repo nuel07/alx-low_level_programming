@@ -18,7 +18,7 @@ else if (y > x && y > z)
 {
 largest = y;
 }
-else
+else if (z > y)
 {
 largest = z;
 }
