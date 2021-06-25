@@ -1,9 +1,9 @@
 #include "holberton.h"
 /**
  * largest_number - returns the largest of 3 numbers
- * @a: first integer
- * @b: second integer
- * @c: third integer
+ * @x: first integer
+ * @y: second integer
+ * @z: third integer
  * Return: largest number
  */
 
