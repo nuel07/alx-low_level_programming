@@ -1,0 +1,1 @@
+This directory covers concepts in Pointers,arrays, and strings.
