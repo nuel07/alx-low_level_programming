@@ -1,0 +1,1 @@
+The fundamental concepts of pointers, strings and arrays.
