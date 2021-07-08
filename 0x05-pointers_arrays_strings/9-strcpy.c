@@ -15,5 +15,6 @@ while (src[index])
 dest[index] = src[index];
 index++;
 }
+dest[index] = '\0';
 return (dest);
 }
