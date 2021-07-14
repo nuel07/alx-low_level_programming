@@ -1,0 +1,1 @@
+This directory contains code snippets showcasing the concept of automatic and dynamic menmory allocation using malloc.
