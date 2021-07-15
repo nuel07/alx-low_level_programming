@@ -1,4 +1,4 @@
-#include "hohlberton.h"
+#include "holberton.h"
 #include <stdlib.h>
 /**
  * malloc_checked - a function that allocates memory
