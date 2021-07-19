@@ -1,0 +1,1 @@
+The concepts of structs and typedef are focused on in this directory.
