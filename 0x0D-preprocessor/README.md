@@ -1,0 +1,1 @@
+This directory contains code showing preprocessor concepts like macros, headers, guards.
