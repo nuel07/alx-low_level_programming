@@ -9,13 +9,13 @@
  */
 
 /**
- * struct op - A struct op.
- * @op: The operator.
+ * struct op - A struct op describing the variables.
+ * @p: The operator.
  * @f: The associated function.
  */
 typedef struct op
 {
-char *op;
+char *p;
 int (*f)(int a, int b);
 } op_t;
 int op_add(int a, int b);
