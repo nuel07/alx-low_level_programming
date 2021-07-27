@@ -1,0 +1,1 @@
+Variadic functions are the main concept in this directory.
