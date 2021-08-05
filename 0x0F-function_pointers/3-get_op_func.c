@@ -20,7 +20,7 @@ op_t ops[] = {
 {NULL, NULL}
 };
 int i = 0;
- while (ops[i].ops != NULL && *(ops[i].ops) != *s)
+while (ops[i].ops != NULL && *(ops[i].ops) != *s)
 i++;
 return (ops[i].f);
 }
