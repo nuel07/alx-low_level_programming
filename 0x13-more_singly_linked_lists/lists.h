@@ -1,7 +1,7 @@
 #ifndef LISTS_H
 #define LISTS_H
 
-/**
+/*
  * File: lists.h
  * Auth: Promise Yehangane
  * Desc: Header file containing prototypes and definitions for all functions
