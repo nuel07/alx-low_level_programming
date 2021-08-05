@@ -10,7 +10,7 @@
 
 /**
  * struct op - A struct op describing the variables.
- * @p: The operator.
+ * @op: The operator.
  * @f: The associated function.
  */
 typedef struct op
