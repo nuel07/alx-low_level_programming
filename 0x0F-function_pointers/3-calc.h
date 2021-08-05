@@ -1,7 +1,7 @@
 #ifndef CALC_H
 #define CALC_H
 
-/**
+/*
  * File: 3-calc.h
  * Auth: Promise Yehangane
  * Desc: Header file containing all structures and
