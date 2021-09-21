@@ -1,0 +1,5 @@
+gcc -Wall -fPIC -c *.c
+gcc -shared -Wl,-soname,libdynamic.so -o libdynamic.so.0 *.o
+mv libdynamic.so.0 /opt/lib
+ln -sf /opt/lib/libdynamic.so.0 /opt/lib/libdynamic.so
+ln -sf /opt/lib/libdynamic.so.0 /opt/lib/libdynamic.so
