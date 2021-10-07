@@ -1,0 +1,1 @@
+Hash functions and hash tables are the main concepts learnt and covered in this project directory.
