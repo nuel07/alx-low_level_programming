@@ -3,8 +3,8 @@ SRC = main.c school.c
 NAME = school
 OBJ = $(SRC:.c=.o)
 RM = rm -rf
-all: ${OBJ}
-	${CC} ${OBJ} -o ${NAME}
+all: $(OBJ)
+	$(CC) $(OBJ) -o $(NAME)
 clean:
 	$(RM) *~ $(NAME)
 oclean:
